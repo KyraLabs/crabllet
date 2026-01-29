@@ -88,26 +88,26 @@ src/
 
 ## Development Phases
 
-| Phase | Description | Status |
-|-------|-------------|--------|
-| 0 | Project foundation and setup | Done |
-| 1 | Entropy and BIP-39 mnemonic generation | In Progress |
-| 2 | BIP-32 HD key derivation | Pending |
-| 3 | Bitcoin address generation | Pending |
-| 4 | Electrum network connection | Pending |
-| 5 | Balance and transaction queries | Pending |
-| 6 | Basic TUI implementation | Pending |
-| 7 | Secure wallet persistence | Pending |
+|Phase|Description|Status|
+|-----|-----------|------|
+|0|Project foundation and setup|Done|
+|1|Entropy and BIP-39 mnemonic generation|In Progress|
+|2|BIP-32 HD key derivation|Pending|
+|3|Bitcoin address generation|Pending|
+|4|Electrum network connection|Pending|
+|5|Balance and transaction queries|Pending|
+|6|Basic TUI implementation|Pending|
+|7|Secure wallet persistence|Pending|
 
 See [docs/crabllet-planning.md](docs/crabllet-planning.md) for detailed phase descriptions.
 
 ## Dependencies
 
-| Crate | Purpose |
-|-------|---------|
-| `bip39` | BIP-39 mnemonic encoding/decoding |
-| `rand` | Cryptographically secure random number generation |
-| `hex` | Hexadecimal encoding for debugging |
+|Crate|Purpose|
+|-----|-------|
+|`bip39`|BIP-39 mnemonic encoding/decoding|
+|`rand`|Cryptographically secure random number generation|
+|`hex`|Hexadecimal encoding for debugging|
 
 ## Learning Resources
 
